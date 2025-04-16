@@ -67,10 +67,5 @@ Steps:
 
 1. ### Switch back to the update-navigation branch:
 ``` bash
-git checkout update-navigation
+git checkout main
 ```
-
-
-
-
-
