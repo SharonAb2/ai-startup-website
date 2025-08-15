@@ -4,21 +4,76 @@
 # Navigating the Project Directory and Checking Branches:
 ## Steps:
 
-1. Navigate to the project directory you just cloned using the command:
+# Install Git
+
+1. ### Download Git:
+
+* Visit the official website to download
+
+* Click [Here](https://git-scm.com/)
+
+* Download the appropriate version for your operating system (Windows, macOS,or Linux).
+
+2. ### Install Git:
+
+* Follow the instructions of your OS (Operating system)
+
+* Once installed, open a terminal or command prompt and verify the installation by running this command:
+
+```git --version```
+
+
+* This should display the installed version of Git.
+
+
+# Create Github Repository
+
+* Sign up or log in to [Github](https://github.com/)
+
+* Click the "+" icon in the top right corner and select "New Repository"
+
+* Name your repository (e.g.. "ai-startup-website")
+
+* Click "Create Repository"
+
+
+# Clone the repository
+
+* On your repository's page on Github, click the "Code" button and copy the HTTPS URL.
+
+* Open your terminal or command prompt
+
+* Create a folder named "git-project"
+
+* Change directory into the "git-project"
+
+* Clone(Download) the repository from Github using:
+
+
+``` bash
+git clone [Paste the URL copied from Github]
+``` 
+
+* Since you just clonned your repository, your branch is `main`
+
+* Navigate into the repository you just clonned.
+
+
+3. ### Navigate to the project directory you just cloned using the command:
 ``` bash
 cd ai-startup-website
 ```
-2. ### Check the current branch in repository using:
+4. ### Check the current branch in repository using:
 ``` bash
 git branch
 ```
 This will display all the branches in the repository.
 
-3. ### Create a new branch called `update-navigation`
+5. ### Create a new branch called `update-navigation`
 ``` bash 
 git branch update-navigation
 ```
-4. ### Verify the new branch by running git branch again. You should see the newly created branch listed.
+6. ### Verify the new branch by running git branch again. You should see the newly created branch listed.
 
 ![git](./image/git-Navigating.PNG)
 
