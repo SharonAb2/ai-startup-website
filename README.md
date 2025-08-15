@@ -1,4 +1,4 @@
-# PART 2: Simulating Tom and Jerry's Work
+# Simulating Tom and Jerry's Work
 ## `This guide will walk you through the basics of using GitHub, including navigating a project directory, creating branches, making changes, and collaborating with others. We'll simulate workflows for two contributors, Tom and Jerry` 
 
 # Navigating the Project Directory and Checking Branches:
